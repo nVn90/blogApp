@@ -7,7 +7,7 @@ const app = express()
 
 const connection = () => {
 mongoose.connect('mongodb://localhost/blogApp', {
-// mongoose.connect('mongodb+srv://nVn90:Parker@2021@crud.gscag.mongodb.net/blogApp?retryWrites=true&w=majority', {
+// mongoose.connect('mongodb+srv://nVn90:<password>@crud.gscag.mongodb.net/blogApp?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
